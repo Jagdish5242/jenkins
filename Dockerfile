@@ -4,5 +4,5 @@ RUN apt install python3-pip -y
 RUN mkdir /new
 COPY addition.py /new
 CMD "python3", "/new/addition.py"
-CMD "git init /var/lib/jenkins/workspace/jenkins1"
+
 
